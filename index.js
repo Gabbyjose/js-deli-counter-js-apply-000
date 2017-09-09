@@ -23,6 +23,6 @@ function currentLine(katzDeliLine){
     for(var i=0; i<katzDeliLine.length; i++){
       currentLineStr += (i+1).toString() +". " + katzDeliLine[i] + ", ";
     }
-    return currentLineStr.subtring(0, -1);
+    return currentLineStr.substring(0, -1);
   }
 }
