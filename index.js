@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name){
 function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0){
     var current = katzDeliLine.shift();
-    return "Now serving " + current;
+    return "Currently serving " + current +".";
   }
   else {
     return "There is nobody waiting to be served!";
