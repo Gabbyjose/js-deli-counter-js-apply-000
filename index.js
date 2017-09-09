@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, name){
 
 function nowServing(katzDeliLine){
   if (katzDeliLine.length > 0){
-    var current = katzDeliLine.unshift();
+    var current = katzDeliLine.shift();
     return "Now serving " + current;
   }
   else {
